@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;600&family=Roboto:wght@300;400&display=swap");
+/*  rgb(32, 150, 119) tamnoZelena */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #555;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: "MuseoModerno", cursive;
+}
+
+a {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background: #3db89c;
+}
+.btn-primary:hover {
+  background: #209677;
+}
+
+.headers img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.headers h1 {
+  background: #3db89c;
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+}
+
+nav.bg-body-tertiary {
+  background: transparent !important;
+  padding-top: 0;
+}
+nav.bg-body-tertiary .container {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+}
+nav.bg-body-tertiary .container .nav-link {
+  color: #209677;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+nav.bg-body-tertiary .container .nav-link:hover {
+  color: #3db89c;
+}
+nav.bg-body-tertiary .container .active {
+  color: #555;
+}
+
+.mainHeader img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background: #3db89c;
+  padding: 100px 0;
+}
+footer i {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+footer h3 {
+  background: #fff;
+  color: #555;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.baner {
+  background: #3db89c;
+  margin-top: -130px;
+}
+.baner h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.usluge h2 {
+  font-size: 3rem;
+}
+.usluge h2::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 10%;
+  background: #3db89c;
+  margin: 30px auto;
+}
+
+.blog article {
+  margin-bottom: 50px;
+}
+.blog article:last-child {
+  margin-bottom: 0;
+}
+.blog article .text {
+  background: #3db89c;
+  margin-top: -100px;
+}
+.blog article .text span {
+  background: #555;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.widget {
+  border: 1px solid #3db89c;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+.widget a {
+  color: #3db89c;
+  text-decoration: none;
+}
+.widget a:hover {
+  color: #209677;
+}
+
+form {
+  background: #3db89c;
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+form textarea {
+  height: 150px;
+}/*# sourceMappingURL=style.css.map */

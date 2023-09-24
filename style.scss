@@ -1,0 +1,118 @@
+@import 'vars';
+@import 'globals';
+@import 'mixins';
+
+nav.bg-body-tertiary {
+  background: transparent !important;
+  padding-top: 0;
+  .container {
+    background: rgba($white, 0.7);
+    padding: 10px 20px;
+
+    .nav-link {
+      color: $tertiary;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      &:hover {
+        color: $secondary;
+      }
+    }
+
+    .active {
+      color: $text;
+    }
+  }
+}
+
+// main header
+.mainHeader {
+  img {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+footer {
+  background: $secondary;
+  padding: 100px 0;
+  i {
+    color: $white;
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }
+  h3 {
+    background: $white;
+    color: $text;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
+}
+
+// baner
+.baner {
+  background: $secondary;
+  margin-top: -130px;
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 300;
+  }
+}
+
+// usluge
+.usluge {
+  h2 {
+    font-size: 3rem;
+    
+    &::after {
+      @include divider;
+    }
+  }
+}
+
+//blog 
+.blog {
+  article {
+    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .text {
+      background: $secondary;
+      margin-top: -100px;
+
+      span {
+        background: $text;
+        padding: 5px 10px;
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+// widgets
+.widget {
+  border: 1px solid $secondary;
+  padding: 30px;
+  margin-bottom: 25px;
+
+  a {
+    color: $secondary;
+    text-decoration: none;
+    &:hover {
+      color: $tertiary;
+    }
+  }
+}
+
+//form
+form {
+    background: $secondary;
+    margin-top: -100px;
+    margin-bottom: 50px;
+
+    textarea {
+      height: 150px;
+    }
+}

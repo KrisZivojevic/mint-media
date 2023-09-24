@@ -1,0 +1,8 @@
+@mixin divider {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 10%;
+  background: $secondary;
+  margin: 30px auto;
+}
