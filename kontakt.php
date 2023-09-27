@@ -2,7 +2,7 @@
 
     <header class="headers position-relative">
       <img class="w-100" src="img/header-kontakt.jpg" alt="header image">
-      <h1 class="position-absolute top-50 start-50 translate-middle display-3 text-center px-5 py-3 text-white">Contact</h1>
+      <h1 class="position-absolute top-50 start-50 translate-middle display-3 text-center px-5 py-3 text-white">Kontakt</h1>
     </header>
 
     <!-- form -->
