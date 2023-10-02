@@ -1,0 +1,22 @@
+//////////
+ID: 3
+Slika: img/mint-socijalne-mreze.jpg
+Naslov: Socijalne mreze
+Datum: 21. avgust 2023.
+Admin: Admin
+Tekst: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esseperferendis voluptates sit delectus numquam, modi nesciunt aspernatur ab enim dicta nostrum quod quo architecto laboriosam, maxime a officia nulla? Expedita maxime in distinctio, porro itaque ex harum aut mollitia, illum ipsa nisi officia doloremque sequi maiores velit corporis molestias quas consequatur dicta reiciendis inventore quisquam.
+//////////
+ID: 2
+Slika: img/mint_seo.jpg
+Naslov: Search engine optimizacija
+Datum: 1. maj 2023.
+Admin: Admin
+Tekst: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esseperferendis voluptates sit delectus numquam, modi nesciunt aspernatur ab enim dicta nostrum quod quo architecto laboriosam, maxime a officia nulla? Expedita maxime in distinctio, porro itaque ex harum aut mollitia, illum ipsa nisi officia doloremque sequi maiores velit corporis molestias quas consequatur dicta reiciendis inventore quisquam.
+
+//////////
+ID: 1
+Slika: img/mint-google-oglasi.jpg
+Naslov: Google oglasi
+Datum: 13. jun 2023.
+Admin: Admin
+Tekst: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esseperferendis voluptates sit delectus numquam, modi nesciunt aspernatur ab enim dicta nostrum quod quo architecto laboriosam, maxime a officia nulla? Expedita maxime in distinctio, porro itaque ex harum aut mollitia, illum ipsa nisi officia doloremque sequi maiores velit corporis molestias quas consequatur dicta reiciendis inventore quisquam.
